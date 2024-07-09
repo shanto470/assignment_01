@@ -349,3 +349,33 @@ div nav h4 {
   font-size: 20px;
   font-weight: 600px;
 }
+.footer-part {
+  /* border: 2px solid red; */
+  width: 1440px;
+  height: 100px;
+  margin-top: 79px;
+  border-radius: 16px;
+  background-color: rgba(13, 19, 33, 0.03);
+  display: flex;
+  justify-content: space-between;
+  padding-top: 40px;
+  padding-bottom: 32px;
+}
+.footer-part p {
+  margin-left: 150px;
+  height: 24px;
+  color: rgb(13, 19, 33);
+  font-size: 20px;
+  font-weight: 600px;
+}
+.icons {
+  margin-right: 150px;
+  width: 157px;
+  height: 36px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0px;
+  gap: 24px;
+}
