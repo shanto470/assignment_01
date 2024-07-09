@@ -69,9 +69,9 @@ div nav h4 {
 }
 /* banner section ends here  */
 
-/*  Why web development section ends here */
+/*  Why web development section starts here */
 .web-section {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   width: 1140px;
   height: 1395px;
   margin-left: 148px;
@@ -98,13 +98,13 @@ div nav h4 {
   color: #0d1321;
 }
 .main-cards {
-  border: 2px solid yellow;
+  /* border: 2px solid yellow; */
   width: 946px;
   height: 1072px;
   margin: 48px 97px 80px 97px;
 }
 .first-card {
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
   width: 946px;
   height: 336px;
   background-color: white;
@@ -135,7 +135,7 @@ div nav h4 {
   margin-top: 32px;
 }
 .second-card {
-  border: 2px solid black;
+  /* border: 2px solid black; */
   width: 946px;
   height: 336px;
   margin-top: 32px;
@@ -149,7 +149,7 @@ div nav h4 {
 }
 
 .third-card {
-  border: 2px solid green;
+  /* border: 2px solid green; */
   width: 946px;
   height: 336px;
   margin-top: 32px;
@@ -157,4 +157,144 @@ div nav h4 {
   display: flex;
   justify-content: space-between;
   padding: 48px;
+}
+/*  Why web development section ends here */
+
+/* <!-- inspiration section starts here --> */
+
+.inspiration-sec {
+  /* border: 2px solid red; */
+  width: 1140px;
+  height: 777px;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: 88px;
+}
+.inspiration-targets {
+  text-align: center;
+  margin-left: 144px;
+  margin-right: 146px;
+}
+.inspiration-targets h3 {
+  font-size: 32px;
+  font-weight: 800px;
+  color: #0d1321;
+}
+.inspiration-targets p {
+  margin-top: 24px;
+
+  font-size: 16px;
+  font-weight: 400px;
+  color: #0d1321;
+}
+
+.video-container {
+  border: 1px solid rgba(13, 19, 33, 0.2);
+  width: 1140px;
+  height: 614px;
+  margin-top: 60px;
+  padding: 32px;
+  border-radius: 16px;
+}
+.video {
+  /* border: 2px solid blue; */
+  width: 1076px;
+  height: 550px;
+  border-radius: 16px;
+}
+/* <!-- inspiration section ends here --> */
+/* <!-- current targets starts here --> */
+.current-targets {
+  /* border: 2px solid red; */
+  width: 1140px;
+  height: 463px;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: 149px;
+}
+.html {
+  /* border: 2px solid greenyellow; */
+  width: 364px;
+  height: 300px;
+  border-radius: 16px;
+  background-color: rgba(255, 76, 30, 0.05);
+  padding: 40px;
+}
+.html h4 {
+  margin-top: 24px;
+  font-weight: 800px;
+  font-size: 24px;
+  color: rgb(13, 19, 33);
+}
+.html p {
+  margin-top: 8px;
+  font-weight: 400px;
+  font-size: 16px;
+  color: rgb(13, 19, 33);
+}
+.html a {
+  margin-top: 24px;
+  display: block;
+  font-size: 16px;
+  font-weight: 700;
+  color: rgb(13, 19, 33);
+}
+.css {
+  /* border: 2px solid rgb(28, 8, 249); */
+  width: 364px;
+  height: 300px;
+  border-radius: 16px;
+  background-color: rgba(0, 76, 232, 0.05);
+  padding: 40px;
+}
+.css h4 {
+  margin-top: 24px;
+  font-weight: 800px;
+  font-size: 24px;
+  color: rgb(13, 19, 33);
+}
+.css p {
+  margin-top: 8px;
+  font-weight: 400px;
+  font-size: 16px;
+  color: rgb(13, 19, 33);
+}
+.css a {
+  margin-top: 24px;
+  display: block;
+  font-size: 16px;
+  font-weight: 700;
+  color: rgb(13, 19, 33);
+}
+.java {
+  /* border: 2px solid rgb(6, 189, 255); */
+  width: 364px;
+  height: 300px;
+  border-radius: 16px;
+  background-color: rgba(255, 223, 0, 0.05);
+  padding: 40px;
+}
+.java h4 {
+  margin-top: 24px;
+  font-weight: 800px;
+  font-size: 24px;
+  color: rgb(13, 19, 33);
+}
+.java p {
+  margin-top: 8px;
+  font-weight: 400px;
+  font-size: 16px;
+  color: rgb(13, 19, 33);
+}
+.java a {
+  margin-top: 24px;
+  display: block;
+  font-size: 16px;
+  font-weight: 700;
+  color: rgb(13, 19, 33);
+}
+.html-css-java {
+  margin-top: 48px;
+  display: flex;
+  gap: 24px;
 }
