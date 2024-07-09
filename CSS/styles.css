@@ -24,6 +24,7 @@ div nav {
   border: 1px solid rgb(13, 19, 33);
   border-radius: 8px;
   opacity: 0.8;
+  padding: 17px 24px 17px 24px;
 }
 div nav h4 {
   margin-top: 50px;
@@ -297,4 +298,54 @@ div nav h4 {
   margin-top: 48px;
   display: flex;
   gap: 24px;
+}
+
+.support-section {
+  /* border: 2px solid red; */
+  width: 1140px;
+  height: 314px;
+  margin-top: 42px;
+  margin-left: 150px;
+  margin-right: 150px;
+  background-image: url(../assets/handshake.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 16px;
+  text-align: center;
+  padding: 64px 48px;
+}
+.support-section h3 {
+  font-size: 32px;
+  font-weight: 700px;
+  color: rgb(255, 255, 255);
+}
+.support-section p {
+  margin-top: 16px;
+  font-size: 16px;
+  font-weight: 400;
+  height: 52px;
+  color: rgb(255, 255, 255);
+}
+.support-section input {
+  width: 548px;
+  height: 57px;
+  margin-top: 24px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 400px;
+  padding: 19px 20px 19px 20px;
+  color: rgba(13, 19, 33, 0.4);
+}
+.support-section button {
+  margin-left: 16px;
+  width: 120px;
+  height: 58px;
+  border-radius: 8px;
+  background-color: rgb(255, 255, 255);
+  padding: 17px 20px 17px 20px;
+  color: rgb(13, 19, 33);
+  font-size: 20px;
+  font-weight: 600px;
 }
