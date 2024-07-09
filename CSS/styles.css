@@ -112,19 +112,19 @@ div nav h4 {
   display: flex;
   justify-content: space-between;
 }
-.first-card h4 {
+.cards-h4 {
   font-weight: 700;
   font-size: 24px;
   color: #0d1321b3;
   margin-top: 10.5px;
 }
-.first-card p {
+.cards-paragraph {
   font-weight: 400;
   font-size: 16px;
   color: #0d1321;
   margin-top: 16px;
 }
-.first-card button {
+.cards-btn {
   border: 1px solid rgb(13, 19, 33);
   opacity: 0.7;
   width: 150px;
@@ -140,11 +140,21 @@ div nav h4 {
   height: 336px;
   margin-top: 32px;
   background-color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 48px;
 }
+.second-card-div {
+  width: 65%;
+}
+
 .third-card {
   border: 2px solid green;
   width: 946px;
   height: 336px;
   margin-top: 32px;
   background-color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 48px;
 }
