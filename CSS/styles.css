@@ -67,3 +67,84 @@ div nav h4 {
   border-radius: 8px;
   padding: 21px 24px;
 }
+/* banner section ends here  */
+
+/*  Why web development section ends here */
+.web-section {
+  border: 2px solid red;
+  width: 1140px;
+  height: 1395px;
+  margin-left: 148px;
+  margin-right: 152px;
+  margin-top: 74px;
+  border-radius: 16px;
+  background-color: #0d132105;
+}
+.first-heading {
+  text-align: center;
+  margin-left: 144px;
+  margin-right: 146px;
+  margin-top: 80px;
+}
+.first-heading h3 {
+  font-size: 32px;
+  font-weight: 800px;
+  color: #0d1321;
+}
+.first-heading p {
+  margin-top: 24px;
+  font-size: 16px;
+  font-weight: 400px;
+  color: #0d1321;
+}
+.main-cards {
+  border: 2px solid yellow;
+  width: 946px;
+  height: 1072px;
+  margin: 48px 97px 80px 97px;
+}
+.first-card {
+  border: 2px solid blue;
+  width: 946px;
+  height: 336px;
+  background-color: white;
+  padding: 48px;
+  display: flex;
+  justify-content: space-between;
+}
+.first-card h4 {
+  font-weight: 700;
+  font-size: 24px;
+  color: #0d1321b3;
+  margin-top: 10.5px;
+}
+.first-card p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #0d1321;
+  margin-top: 16px;
+}
+.first-card button {
+  border: 1px solid rgb(13, 19, 33);
+  opacity: 0.7;
+  width: 150px;
+  height: 48px;
+  color: rgb(13, 19, 33);
+  font-weight: 600;
+  font-size: 20px;
+  margin-top: 32px;
+}
+.second-card {
+  border: 2px solid black;
+  width: 946px;
+  height: 336px;
+  margin-top: 32px;
+  background-color: white;
+}
+.third-card {
+  border: 2px solid green;
+  width: 946px;
+  height: 336px;
+  margin-top: 32px;
+  background-color: white;
+}
