@@ -34,9 +34,8 @@ div nav h4 {
 }
 .intro {
   background-image: url("../assets/Hero-bg.png");
-  width: 1440px;
   height: 652px;
-  margin: 0 auto;
+  width: 100%;
   margin-top: 60px;
   text-align: center;
   padding-top: 26px;
@@ -47,15 +46,18 @@ div nav h4 {
 }
 .intro h1 {
   margin-top: 30px;
-  color: #0d1321;
+  color: rgb(13, 19, 33);
   font-size: 48px;
   font-weight: 800px;
+  line-height: 68px;
 }
 .intro p {
   margin-top: 24px;
-  color: #0d1321;
+  color: (13, 19, 33);
   font-weight: 400px;
   font-size: 16px;
+  opacity: 0.7;
+  line-height: 26px;
 }
 .intro button {
   margin-top: 54px;
@@ -74,12 +76,12 @@ div nav h4 {
 .web-section {
   /* border: 2px solid red; */
   width: 1140px;
-  height: 1395px;
-  margin-left: 148px;
-  margin-right: 152px;
+  /* height: 1395px; */
+  margin: 0 auto;
   margin-top: 74px;
   border-radius: 16px;
   background-color: #0d132105;
+  padding: 15px 0;
 }
 .first-heading {
   text-align: center;
@@ -91,12 +93,15 @@ div nav h4 {
   font-size: 32px;
   font-weight: 800px;
   color: #0d1321;
+  line-height: 37px;
 }
 .first-heading p {
   margin-top: 24px;
   font-size: 16px;
   font-weight: 400px;
   color: #0d1321;
+  line-height: 26px;
+  opacity: 0.7;
 }
 .main-cards {
   /* border: 2px solid yellow; */
@@ -112,18 +117,23 @@ div nav h4 {
   padding: 48px;
   display: flex;
   justify-content: space-between;
+  background: linear-gradient(to right, #ffffff, #ffffff00);
+  border-radius: 16px;
 }
 .cards-h4 {
   font-weight: 700;
   font-size: 24px;
-  color: #0d1321b3;
+  color: rgba(13, 19, 33, 0.702);
   margin-top: 10.5px;
+  line-height: 36px;
 }
 .cards-paragraph {
   font-weight: 400;
   font-size: 16px;
-  color: #0d1321;
   margin-top: 16px;
+  line-height: 26px;
+  color: rgb(13, 19, 33);
+  opacity: 0.7;
 }
 .cards-btn {
   border: 1px solid rgb(13, 19, 33);
@@ -134,6 +144,7 @@ div nav h4 {
   font-weight: 600;
   font-size: 20px;
   margin-top: 32px;
+  background-color: transparent;
 }
 .second-card {
   /* border: 2px solid black; */
@@ -144,6 +155,8 @@ div nav h4 {
   display: flex;
   justify-content: space-between;
   padding: 48px;
+  background: linear-gradient(to left, #ffffff, #ffffff00);
+  border-radius: 16px;
 }
 .second-card-div {
   width: 65%;
@@ -154,10 +167,12 @@ div nav h4 {
   width: 946px;
   height: 336px;
   margin-top: 32px;
+  border-radius: 16px;
   background-color: white;
   display: flex;
   justify-content: space-between;
   padding: 48px;
+  background: linear-gradient(to right, #ffffff, #ffffff00);
 }
 /*  Why web development section ends here */
 
@@ -167,8 +182,7 @@ div nav h4 {
   /* border: 2px solid red; */
   width: 1140px;
   height: 777px;
-  margin-left: 150px;
-  margin-right: 150px;
+  margin: 0 auto;
   margin-top: 88px;
 }
 .inspiration-targets {
@@ -180,13 +194,16 @@ div nav h4 {
   font-size: 32px;
   font-weight: 800px;
   color: #0d1321;
+  line-height: 37px;
 }
 .inspiration-targets p {
   margin-top: 24px;
-
   font-size: 16px;
   font-weight: 400px;
   color: #0d1321;
+  line-height: 26px;
+  color: rgb(13, 19, 33);
+  opacity: 0.7;
 }
 
 .video-container {
@@ -209,8 +226,7 @@ div nav h4 {
   /* border: 2px solid red; */
   width: 1140px;
   height: 463px;
-  margin-left: 150px;
-  margin-right: 150px;
+  margin: 0 auto;
   margin-top: 149px;
 }
 .html {
@@ -226,19 +242,23 @@ div nav h4 {
   font-weight: 800px;
   font-size: 24px;
   color: rgb(13, 19, 33);
+  line-height: 36px;
 }
 .html p {
   margin-top: 8px;
   font-weight: 400px;
   font-size: 16px;
   color: rgb(13, 19, 33);
+  opacity: 0.7;
+  line-height: 26px;
 }
 .html a {
-  margin-top: 24px;
+  margin-top: 14px;
   display: block;
   font-size: 16px;
   font-weight: 700;
   color: rgb(13, 19, 33);
+  line-height: 19px;
 }
 .css {
   /* border: 2px solid rgb(28, 8, 249); */
@@ -253,19 +273,23 @@ div nav h4 {
   font-weight: 800px;
   font-size: 24px;
   color: rgb(13, 19, 33);
+  line-height: 36px;
 }
 .css p {
   margin-top: 8px;
   font-weight: 400px;
   font-size: 16px;
   color: rgb(13, 19, 33);
+  opacity: 0.7;
+  line-height: 26px;
 }
 .css a {
-  margin-top: 24px;
+  margin-top: 14px;
   display: block;
   font-size: 16px;
   font-weight: 700;
   color: rgb(13, 19, 33);
+  line-height: 19px;
 }
 .java {
   /* border: 2px solid rgb(6, 189, 255); */
@@ -280,19 +304,23 @@ div nav h4 {
   font-weight: 800px;
   font-size: 24px;
   color: rgb(13, 19, 33);
+  line-height: 36px;
 }
 .java p {
   margin-top: 8px;
   font-weight: 400px;
   font-size: 16px;
   color: rgb(13, 19, 33);
+  opacity: 0.7;
+  line-height: 26px;
 }
 .java a {
-  margin-top: 24px;
+  margin-top: 14px;
   display: block;
   font-size: 16px;
   font-weight: 700;
   color: rgb(13, 19, 33);
+  line-height: 19px;
 }
 .html-css-java {
   margin-top: 48px;
@@ -305,14 +333,18 @@ div nav h4 {
   width: 1140px;
   height: 314px;
   margin-top: 42px;
-  margin-left: 150px;
-  margin-right: 150px;
+  margin-left: auto;
+  margin-right: auto;
   background-image: url(../assets/handshake.jpg);
   background-size: cover;
   background-position: center;
   border-radius: 16px;
   text-align: center;
+}
+.back-color {
+  background-color: rgb(0, 0, 0, 20%);
   padding: 64px 48px;
+  border-radius: 16px;
 }
 .support-section h3 {
   font-size: 32px;
@@ -325,6 +357,7 @@ div nav h4 {
   font-weight: 400;
   height: 52px;
   color: rgb(255, 255, 255);
+  opacity: 0.7;
 }
 .support-section input {
   width: 548px;
@@ -349,27 +382,29 @@ div nav h4 {
   font-size: 20px;
   font-weight: 600px;
 }
-.footer-part {
-  /* border: 2px solid red; */
-  width: 1440px;
-  height: 100px;
-  margin-top: 79px;
+footer {
   border-radius: 16px;
   background-color: rgba(13, 19, 33, 0.03);
+}
+.footer-part {
+  /* border: 2px solid red; */
+  width: 1140px;
+  height: 100px;
+  margin-top: 79px;
   display: flex;
   justify-content: space-between;
   padding-top: 40px;
   padding-bottom: 32px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .footer-part p {
-  margin-left: 150px;
   height: 24px;
   color: rgb(13, 19, 33);
   font-size: 20px;
   font-weight: 600px;
 }
 .icons {
-  margin-right: 150px;
   width: 157px;
   height: 36px;
   display: flex;
